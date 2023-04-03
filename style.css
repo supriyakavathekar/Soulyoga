@@ -7,6 +7,7 @@
 body {
   height: 100vh;
   width: 100vw;
+background-color: rgb(87, 4, 4);
 }
 
 .logo {
@@ -31,7 +32,7 @@ body {
 .logo {
   position: absolute;
   top: 0;
- left: 130px;
+  left: 130px;
 }
 
 .mainpage nav {
@@ -43,6 +44,7 @@ body {
   width: 100%;
   align-items: center;
   justify-content: space-evenly;
+  cursor: pointer;
 }
 
 .mainpage nav a {
@@ -53,7 +55,7 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
-.mainpage h1  {
+.mainpage h1 {
   color: yellow;
   font-size: 1.2em;
   position: absolute;
@@ -61,52 +63,111 @@ body {
 }
 
 .mainpage h2 {
-    color: yellow;
+  color: yellow;
   font-size: 1.2em;
   position: absolute;
   margin-top: 40px;
 }
 
 .freetrial {
-    height: 40px;
-    width: 125px;
-    border: 2px solid rgb(84, 84, 43) ;
-    border-radius: 10px;
-    background-color: rgb(84, 84, 43);
-    position: absolute;
-    top: 420px;
-    color: white;
+  height: 40px;
+  width: 125px;
+  border: 2px solid rgb(84, 84, 43);
+  border-radius: 10px;
+  background-color: rgb(84, 84, 43);
+  position: absolute;
+  top: 420px;
+  color: grey;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.adj {
+  color: grey;
+  height: 90px;
+  width: 80px;
+  border: 2px solid white;
+  position: absolute;
+  right: 15px;
+  top: 500px;
+  text-align: center;
+  padding: 5%;
+  border-radius: 90px;
+  background-color: rgb(69, 88, 39);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 /* for signinhtml */
 
 .signcontainer {
-    height: 100% ;
-    width:  100%;
-   background-color: rgb(110, 110, 22);
-    padding: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(110, 110, 22);
+  padding: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-  input[type=email], input[type=password] ,input[type=button] {
-
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
+input[type="email"],
+input[type="password"],
+input[type="button"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  }
+}
+
+.signchild {
+  border: 2px solid black;
+  padding: 50px;
+  background-color: yellowgreen;
+  cursor: pointer;
+}
+
+/* benifit member */
+
+.benifitparent {
+    /* background-color: rgb(237, 226, 226); */
+   
+
+}
+
+.benifitparent img {
+  height: 200px;
+  background-position: center;
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 100px;
+}
+
+.benifit {
+    text-align: center;
+    margin-top: 40px;
+} 
 
 
-  .signchild {
-    border: 2px solid black;
-    padding: 50px;
-    background-color: yellowgreen;
-    cursor: pointer;
-  }
+.benifit h2 {
+    font-size: 3em;
+    /* color: rgb(27, 27, 2); */
+    color: greenyellow;
+}
+
+.benifit h3 {
+    color: gold;
+    font-size: 1.8em;
+}
+
+  
 
 
 
+.benifitparent p {
+   padding: 10px;
+   margin: 5px;
+   color: green;
+   font-size: 1.4em;
+}
