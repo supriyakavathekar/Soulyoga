@@ -7,7 +7,7 @@
 body {
   height: 100vh;
   width: 100vw;
-background-color: rgb(87, 4, 4);
+  background-color: rgb(87, 4, 4);
 }
 
 .logo {
@@ -85,7 +85,7 @@ background-color: rgb(87, 4, 4);
 .adj {
   color: grey;
   height: 90px;
-  width: 80px;
+  width: 90px;
   border: 2px solid white;
   position: absolute;
   right: 15px;
@@ -130,8 +130,7 @@ input[type="button"] {
 /* benifit member */
 
 .benifitparent {
-    /* background-color: rgb(237, 226, 226); */
- 
+  /* background-color: rgb(237, 226, 226); */
 }
 
 .benifitparent img {
@@ -142,33 +141,119 @@ input[type="button"] {
   margin-left: 30px;
   margin-right: 60px;
   border-radius: 100px;
- 
 }
 
 .benifit {
-    text-align: center;
-    margin-top: 40px;
-} 
-
+  text-align: center;
+  margin-top: 40px;
+}
 
 .benifit h2 {
-    font-size: 3em;
-    /* color: rgb(27, 27, 2); */
-    color: greenyellow;
+  font-size: 3em;
+  /* color: rgb(27, 27, 2); */
+  color: greenyellow;
 }
 
 .benifit h3 {
-    color: gold;
-    font-size: 1.8em;
+  color: gold;
+  font-size: 1.8em;
 }
-
-  
-
-
 
 .benifitparent p {
-   padding: 10px;
-   margin: 5px;
-   color: green;
-   font-size: 1.4em;
+  padding: 10px;
+  margin: 5px;
+  color: green;
+  font-size: 1.4em;
 }
+
+/* programs */
+
+.courses {
+  text-align: center;
+  padding: 20px;
+  background-color:  rgb(110, 4, 4);
+}
+.corporate {
+  background-image: linear-gradient(
+    rgba(75, 73, 73, 0.5),
+    rgba(87, 80, 80, 0.5)
+  ),
+    url(/assets/images/corporate.png);
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+}
+
+
+
+.programs {
+  font-size: 2em;
+  color: green;
+}
+
+.personal {
+  background-image: linear-gradient(
+    rgba(75, 73, 73, 0.5),
+    rgba(87, 80, 80, 0.5)
+  ),
+    url(/assets/images/personal.png);
+
+  height: 200px;
+  background-position: center;
+  background-size: contain;
+}
+
+.group {
+  background-image: linear-gradient(
+    rgba(75, 73, 73, 0.5),
+    rgba(87, 80, 80, 0.5)
+  ),
+    url("/assets/images/group.png");
+  height: 200px;
+  background-position: center;
+  background-size: contain;
+}
+
+.theropy {
+  background-image: linear-gradient(
+    rgba(75, 73, 73, 0.5),
+    rgba(87, 80, 80, 0.5)
+  ),
+    url("/assets/images/theropy.png");
+  height: 200px;
+  background-position: center;
+  background-size: contain;
+}
+
+.pregancy {
+  background-image: linear-gradient(
+    rgba(75, 73, 73, 0.5),
+    rgba(87, 80, 80, 0.5)
+  ),
+    url("/assets/images/preg.png");
+  height: 200px;
+  background-position: center;
+  background-size: contain;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-position: center;
+  background-size: contain;
+}
+
+
+  
+  .courses a {
+   
+    color: gold;
+    font-size: 1.4em;
+    text-decoration: none;
+  }
+
+  .courses h3 {
+    color: greenyellow;
+    font-size: 1.8em;
+  }
