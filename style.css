@@ -131,8 +131,7 @@ input[type="button"] {
 
 .benifitparent {
     /* background-color: rgb(237, 226, 226); */
-   
-
+ 
 }
 
 .benifitparent img {
@@ -140,8 +139,10 @@ input[type="button"] {
   background-position: center;
   border: 1px solid black;
   margin-top: 40px;
-  margin-left: 40px;
+  margin-left: 30px;
+  margin-right: 60px;
   border-radius: 100px;
+ 
 }
 
 .benifit {
