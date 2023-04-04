@@ -131,15 +131,16 @@ input[type="button"] {
 
 .benifitparent {
   /* background-color: rgb(237, 226, 226); */
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .benifitparent img {
   height: 200px;
   background-position: center;
   border: 1px solid black;
-  margin-top: 40px;
-  margin-left: 30px;
-  margin-right: 60px;
+  
   border-radius: 100px;
 }
 
@@ -152,6 +153,8 @@ input[type="button"] {
   font-size: 3em;
   /* color: rgb(27, 27, 2); */
   color: greenyellow;
+  font-family: "Dancing Script", cursive;
+  font-family: "Sono", sans-serif;
 }
 
 .benifit h3 {
@@ -171,31 +174,37 @@ input[type="button"] {
 .courses {
   text-align: center;
   padding: 20px;
-  background-color:  rgb(110, 4, 4);
+  background-color: rgb(110, 4, 4);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-position: center;
+  background-size: contain;
 }
 .corporate {
   background-image: linear-gradient(
-    rgba(75, 73, 73, 0.5),
-    rgba(87, 80, 80, 0.5)
-  ),
+      rgba(75, 73, 73, 0.5),
+      rgba(87, 80, 80, 0.5)
+    ),
     url(/assets/images/corporate.png);
   background-position: center;
   background-size: contain;
   height: 200px;
 }
 
-
-
 .programs {
   font-size: 2em;
   color: green;
+  font-family: "Dancing Script", cursive;
+  font-family: "Sono", sans-serif;
+  margin-top: 40px;
 }
 
 .personal {
   background-image: linear-gradient(
-    rgba(75, 73, 73, 0.5),
-    rgba(87, 80, 80, 0.5)
-  ),
+      rgba(75, 73, 73, 0.5),
+      rgba(87, 80, 80, 0.5)
+    ),
     url(/assets/images/personal.png);
 
   height: 200px;
@@ -205,9 +214,9 @@ input[type="button"] {
 
 .group {
   background-image: linear-gradient(
-    rgba(75, 73, 73, 0.5),
-    rgba(87, 80, 80, 0.5)
-  ),
+      rgba(75, 73, 73, 0.5),
+      rgba(87, 80, 80, 0.5)
+    ),
     url("/assets/images/group.png");
   height: 200px;
   background-position: center;
@@ -216,9 +225,9 @@ input[type="button"] {
 
 .theropy {
   background-image: linear-gradient(
-    rgba(75, 73, 73, 0.5),
-    rgba(87, 80, 80, 0.5)
-  ),
+      rgba(75, 73, 73, 0.5),
+      rgba(87, 80, 80, 0.5)
+    ),
     url("/assets/images/theropy.png");
   height: 200px;
   background-position: center;
@@ -227,33 +236,54 @@ input[type="button"] {
 
 .pregancy {
   background-image: linear-gradient(
-    rgba(75, 73, 73, 0.5),
-    rgba(87, 80, 80, 0.5)
-  ),
+      rgba(75, 73, 73, 0.5),
+      rgba(87, 80, 80, 0.5)
+    ),
     url("/assets/images/preg.png");
   height: 200px;
   background-position: center;
   background-size: contain;
 }
 
-.courses {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  background-position: center;
-  background-size: contain;
+
+.courses h3 {
+  color: greenyellow;
+  font-size: 1.8em;
 }
 
+.courses button {
+  border: 1px solid yellowgreen;
 
+  background-color: yellowgreen;
+  width: 80px;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* meet the team  */
+
+.teamgrid {
+
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto auto;
+
+ 
   
-  .courses a {
-   
-    color: gold;
-    font-size: 1.4em;
-    text-decoration: none;
-  }
+}
 
-  .courses h3 {
-    color: greenyellow;
-    font-size: 1.8em;
-  }
+.teachergrid {
+  border: 1px solid black ;
+  color: #ccc;
+  height: 200px;
+ 
+}
+
+.teachergrid img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  border-radius: 80px;
+}
