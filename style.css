@@ -490,6 +490,30 @@ footer {
   text-align: center;
   padding: 3%;
 }
+
+/* member benifit */
+
+
+.benifitparent img {
+  height: 350px;
+border: none;
+border-radius: 0px;
+}
+
+.benifit h3 {
+ 
+  margin-top: 10px;
+}
+
+.benifitparent p {
+
+  margin: 5px;
+  
+  font-size: 1.8em;
+}
+
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
