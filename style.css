@@ -541,7 +541,7 @@ justify-content: center;
 
  .teachergrid p {
 
-  font-size: large;
+  font-size: larger;
  
 }
  /* review */
@@ -577,13 +577,55 @@ justify-content: center;
   flex-direction: row;
  /* justify-content: space-evenly; */
 }
-
-
-
-
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+  /* mainpage */
+
+  .adj {
+    
+    height: 100px;
+    width: 100px;
+    top: 450px;
+    padding: 2%;
+  
+  }
+
+ /* newsletter */
+
+ .registerbutton {
+ 
+  width: 100px;
+  
+ 
+}
+
+.newsletterform {
+  height: 80px;
+  width: 400px;
+  position: relative;
+  left: 200px;
+ 
+  
+}
+
+.footera {
+  flex-direction: row;
+  display: flex;
+}
+
+footer {
+
+  height: 100px;
+   background-color: black; 
+  
+   
+}
+
+}
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
