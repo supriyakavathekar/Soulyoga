@@ -405,3 +405,30 @@ input[type="button"] {
   border-radius: 80px;
 }
 
+
+/* footer */
+
+footer {
+
+  height: 200px;
+   background-color: black; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.footera a {
+  color: white;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+.footera {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+ 
