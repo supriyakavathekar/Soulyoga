@@ -59,15 +59,19 @@ strong {
 
 .mainpage h1 {
   color: yellow;
-  font-size: 1.2em;
+ font-size:medium ;
   position: absolute;
+  font-family: "Dancing Script", cursive;
+    font-family: "Sono", sans-serif;
 }
 
 .mainpage h2 {
   color: yellow;
-  font-size: 1.2em;
+  font-size: small;
   position: absolute;
   margin-top: 40px;
+  font-family: "Dancing Script", cursive;
+    font-family: "Sono", sans-serif;
 }
 
 .freetrial {
@@ -175,7 +179,7 @@ input[type="button"] {
 .courses {
   text-align: center;
   padding: 20px;
-  background-color: rgb(110, 4, 4) ;
+  background-color: rgb(110, 4, 4);
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -401,7 +405,7 @@ input[type="button"] {
   position: relative;
   left: 100px;
 
-  left: 70px;
+  
 }
 
 .registerbutton {
@@ -653,12 +657,10 @@ footer {
   }
   .corporate {
     width: 400px;
-    
   }
 
   .personal {
     width: 400px;
-    
   }
 
   .group {
@@ -668,17 +670,30 @@ footer {
   .pregancy {
     width: 400px;
   }
+
+  /* meet the team */
+
+  .teamgrid {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 300px 300px;
+  }
+
+  /* review */
+
+  .review button {
+    left: 300px;
+  }
+
+  /* newsletter */
+
+  .newsletterform {
+    left: 400px;
+    position: absolute;
+  }
+
+
+
 }
-
-/* meet the team */
-
-.teamgrid {
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 300px 300px ;
-}
-
-
-
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
