@@ -175,7 +175,7 @@ input[type="button"] {
 .courses {
   text-align: center;
   padding: 20px;
-  background-color: rgb(110, 4, 4);
+  background-color: rgb(110, 4, 4) ;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -624,36 +624,50 @@ footer {
   }
 
   .mainpage h1 {
-    font-family: 'Dancing Script', cursive;
-font-family: 'Sono', sans-serif;
-font-size: xx-large;
-    
+    font-family: "Dancing Script", cursive;
+    font-family: "Sono", sans-serif;
+    font-size: xx-large;
   }
 
   .mainpage h2 {
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Sono', sans-serif;
+    font-family: "Dancing Script", cursive;
+    font-family: "Sono", sans-serif;
     font-size: x-large;
   }
-
 
   /* member benifit */
 
   .benifittypes {
     display: flex;
     padding: 1%;
- 
   }
 
   .benifittypes img {
-    width: 250px ;
+    width: 250px;
     height: 200px;
-
   }
 
- 
+  /* programs */
+  .courses {
+    flex-wrap: wrap;
+  }
+  .corporate {
+    width: 400px;
+    
+  }
 
+  .personal {
+    width: 400px;
+    
+  }
 
+  .group {
+    width: 400px;
+  }
+
+  .pregancy {
+    width: 400px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
