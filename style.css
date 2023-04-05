@@ -636,6 +636,24 @@ font-size: xx-large;
     font-size: x-large;
   }
 
+
+  /* member benifit */
+
+  .benifittypes {
+    display: flex;
+    padding: 1%;
+ 
+  }
+
+  .benifittypes img {
+    width: 250px ;
+    height: 200px;
+
+  }
+
+ 
+
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
