@@ -20,10 +20,15 @@ body {
   left: 130px;
 }
 
+strong {
+  color: red;
+}
+
 .mainpage {
   background-image: linear-gradient(rgba(7, 7, 7, 0.5), rgba(7, 6, 6, 0.5)),
     url("/assets/images/mainyoga.png");
   height: 100%;
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +36,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 
 .mainpage nav {
   position: absolute;
@@ -57,7 +61,6 @@ body {
   color: yellow;
   font-size: 1.2em;
   position: absolute;
-
 }
 
 .mainpage h2 {
@@ -65,7 +68,6 @@ body {
   font-size: 1.2em;
   position: absolute;
   margin-top: 40px;
-  fo
 }
 
 .freetrial {
@@ -206,7 +208,7 @@ input[type="button"] {
       rgba(87, 80, 80, 0.5)
     ),
     url(/assets/images/personal.png);
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
 
   height: 200px;
   background-position: center;
@@ -244,7 +246,7 @@ input[type="button"] {
       rgba(87, 80, 80, 0.5)
     ),
     url("/assets/images/preg.png");
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   height: 200px;
   background-position: center;
   background-size: contain;
@@ -398,7 +400,7 @@ input[type="button"] {
   width: 150px;
   position: relative;
   left: 100px;
- 
+
   left: 70px;
 }
 
@@ -410,24 +412,20 @@ input[type="button"] {
   border-radius: 80px;
 }
 
-
 /* footer */
 
 footer {
-
   height: 200px;
-   background-color: black; 
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footera a {
   color: white;
   text-decoration: none;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .footera {
@@ -436,199 +434,210 @@ footer {
   align-items: center;
   gap: 40px;
 }
- 
-
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
   /* mainpage */
-.logo {
-  left: 5px;
-  width: 150px;
-  height: 100px;
-  border: none;
-  top: 5px;
+  .logo {
+    left: 5px;
+    width: 150px;
+    height: 100px;
+    border: none;
+    top: 5px;
+  }
 
-}
+  .mainpage nav a {
+    font-size: 2em;
+    color: rgb(241, 241, 14);
+  }
 
-.mainpage nav a {
+  .mainpage h1 {
+    font-size: 3em;
+  }
 
-  font-size: 2em;
-  color: rgb(241, 241, 14);
- 
-}
+  .mainpage h2 {
+    color: yellow;
+    font-size: 2.5em;
+    margin-top: 80px;
+  }
 
-.mainpage h1 {
-  
-  font-size: 3em;
-  
-}
+  .freetrial {
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    top: 480px;
+  }
 
-.mainpage h2 {
-  color: yellow;
-  font-size: 2.5em;
- margin-top: 80px;
-}
+  .adj {
+    height: 100px;
+    width: 100px;
 
-.freetrial {
-  height: 50px;
- width: 200px;
-  font-size: large;
-  top: 480px;
-  
-}
+    right: 20px;
+    top: 600px;
+    text-align: center;
+    padding: 3%;
+  }
 
-.adj {
-  
-  height: 100px;
-  width: 100px;
+  /* member benifit */
 
- 
-  right: 20px;
-  top: 600px;
-  text-align: center;
-  padding: 3%;
-}
+  .benifitparent img {
+    height: 350px;
+    border: none;
+    border-radius: 0px;
+  }
 
-/* member benifit */
+  .benifit h3 {
+    margin-top: 10px;
+  }
 
+  .benifitparent p {
+    margin: 5px;
 
-.benifitparent img {
-  height: 350px;
-border: none;
-border-radius: 0px;
-}
+    font-size: 1.8em;
+  }
 
-.benifit h3 {
- 
-  margin-top: 10px;
-}
+  /* programs */
 
-.benifitparent p {
+  .types {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-  margin: 5px;
-  
-  font-size: 1.8em;
-}
+  .corporate {
+    width: 300px;
+  }
 
-/* programs */
+  .personal {
+    width: 300px;
+  }
 
-.types {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-justify-content: center;
-}
+  .group {
+    width: 300px;
+  }
 
-.corporate {
-  width: 300px;
-}
+  .pregancy {
+    width: 300px;
+  }
 
-.personal {
-  width: 300px;
-}
- 
-.group{
-  width: 300px;
- }
+  /* team */
 
- .pregancy {
-  width: 300px;
- }
+  .teachergrid p {
+    font-size: larger;
+  }
+  /* review */
+  .review button {
+    position: relative;
+    left: 140px;
+    top: 50px;
+    width: 150px;
+    font-size: large;
+  }
 
- /* team */
+  .reviewchild p {
+    font-size: large;
+  }
 
- .teachergrid p {
+  .reviewchild h3 {
+    font-size: 2em;
+  }
 
-  font-size: larger;
- 
-}
- /* review */
- .review button {
-  
-  position: relative;
-  left: 140px;
-  top: 50px;
-  width: 150px;
-  font-size: large;
+  /* newsletter */
+  .newsletterform {
+    position: relative;
+    left: 225px;
+  }
 
-}
-
-.reviewchild p {
-  font-size: large;
-}
-
-.reviewchild h3 {
- 
-  font-size: 2em;
-}
-
-/* newsletter */
-.newsletterform {
- 
-  position: relative;
-  left: 225px;
- 
-
-}
-
-.footera {
-  flex-direction: row;
- /* justify-content: space-evenly; */
-}
+  .footera {
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
   /* mainpage */
 
   .adj {
-    
     height: 100px;
     width: 100px;
     top: 450px;
     padding: 2%;
-  
   }
 
- /* newsletter */
+  /* newsletter */
 
- .registerbutton {
- 
-  width: 100px;
-  
- 
+  .registerbutton {
+    width: 100px;
+  }
+
+  .newsletterform {
+    height: 80px;
+    width: 400px;
+    position: relative;
+    left: 200px;
+  }
+
+  .footera {
+    flex-direction: row;
+    display: flex;
+  }
+
+  footer {
+    height: 100px;
+    background-color: black;
+  }
 }
-
-.newsletterform {
-  height: 80px;
-  width: 400px;
-  position: relative;
-  left: 200px;
- 
-  
-}
-
-.footera {
-  flex-direction: row;
-  display: flex;
-}
-
-footer {
-
-  height: 100px;
-   background-color: black; 
-  
-   
-}
-
-}
-
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  /* mainpage */
+  .adj {
+    top: 200px;
+    right: 60px;
+  }
+
+  .mainpage nav a {
+    font-size: large;
+    transition: all 0.5s linear;
+  }
+
+  .mainpage nav a:hover {
+    color: red;
+    /* background-color:green; */
+    text-decoration: underline;
+  }
+
+  .mainpage nav {
+    top: 10%;
+  }
+
+  .freetrial {
+    top: 350px;
+    height: 35px;
+    transition: 0.5s linear;
+  }
+
+  .freetrial:hover {
+    color: gold;
+  }
+
+  .mainpage h1 {
+    font-family: 'Dancing Script', cursive;
+font-family: 'Sono', sans-serif;
+font-size: xx-large;
+    
+  }
+
+  .mainpage h2 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sono', sans-serif;
+    font-size: x-large;
+  }
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
