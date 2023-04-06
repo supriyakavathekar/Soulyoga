@@ -59,10 +59,10 @@ strong {
 
 .mainpage h1 {
   color: yellow;
- font-size:medium ;
+  font-size: medium;
   position: absolute;
   font-family: "Dancing Script", cursive;
-    font-family: "Sono", sans-serif;
+  font-family: "Sono", sans-serif;
 }
 
 .mainpage h2 {
@@ -71,7 +71,7 @@ strong {
   position: absolute;
   margin-top: 40px;
   font-family: "Dancing Script", cursive;
-    font-family: "Sono", sans-serif;
+  font-family: "Sono", sans-serif;
 }
 
 .freetrial {
@@ -404,8 +404,6 @@ input[type="button"] {
   width: 150px;
   position: relative;
   left: 100px;
-
-  
 }
 
 .registerbutton {
@@ -690,11 +688,25 @@ footer {
     left: 400px;
     position: absolute;
   }
-
-
-
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .freetrial {
+    position: absolute;
+    margin-top: 100px;
+    color: grey;
+  }
+
+  .mainpage nav a {
+    font-size: 1.5em;
+  }
+
+  .mainpage h1 {
+    font-size: 3em;
+  }
+
+  .mainpage h2 {
+    font-size: 2em;
+  }
 }
