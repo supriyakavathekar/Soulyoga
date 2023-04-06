@@ -449,17 +449,17 @@ footer {
   }
 
   .mainpage nav a {
-    font-size: 2em;
+    font-size: 1.3em;
     color: rgb(241, 241, 14);
   }
 
   .mainpage h1 {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .mainpage h2 {
     color: yellow;
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-top: 80px;
   }
 
@@ -467,15 +467,15 @@ footer {
     height: 50px;
     width: 200px;
     font-size: large;
-    top: 480px;
+    top: 450px;
   }
 
   .adj {
     height: 100px;
     width: 100px;
 
-    right: 20px;
-    top: 600px;
+    right: 30px;
+    top: 500px;
     text-align: center;
     padding: 3%;
   }
